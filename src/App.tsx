@@ -14,7 +14,7 @@ function App() {
         const response = await fetch('https://v3.football.api-sports.io', {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': 'XxXxXxXxXxXxXxXxXxXxXxXx', // Replace with your real API key
+            'x-rapidapi-key': '29a55704413f9ecc2ad7c78677ffe340', // Replace with your real API key
             'x-rapidapi-host': 'v3.football.api-sports.io',
           },
         });
